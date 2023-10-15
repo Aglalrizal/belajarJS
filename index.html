@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>belajarJS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- <form onsubmit="return false">
+        <input type="text" id="input_form" value="">
+        <button id="tombol-form">Tekan</button>
+    </form> -->
+    <div class="container">
+        <div class="todo-app">
+            <div class="header">
+                <h2>To-Do List</h2>
+                <img src="images/icon.png" alt="todo-icon">
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div class="li-container">
+                <ul id="list-container">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <p>Hasil teks <span id="hasil"></span></p> -->
+    <!-- internal javascript -->
+    <!-- <script>
+        console.log("Hello world!");
+    </script> -->
+    <!-- external javascript -->
+
+    <script src="script.js"></script>
 </body>
+
 </html>
