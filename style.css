@@ -39,7 +39,7 @@ body{
 }
 
 .todo-app img{
-    width: 7%;
+    width: 50px;
 
 }
 
@@ -47,7 +47,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: rgb(249, 215, 170);
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -89,6 +89,7 @@ ul li {
     cursor: pointer;
     position: relative;
     word-wrap: break-word;
+    border-bottom: solid 1px #1a1a1a;
 }
 
 ul li::before{
